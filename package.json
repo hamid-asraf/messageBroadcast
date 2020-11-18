@@ -1,0 +1,29 @@
+{
+  "name": "messagebroadcast",
+  "version": "1.0.0",
+  "description": "this is test project for the message broadcast",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamid-asraf/messageBroadcast.git"
+  },
+  "author": "Hamid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamid-asraf/messageBroadcast/issues"
+  },
+  "homepage": "https://github.com/hamid-asraf/messageBroadcast#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "body-parser": "^1.19.0",
+    "config": "^3.3.2",
+    "express": "^4.17.1",
+    "helmet": "^4.2.0",
+    "save": "^2.4.0",
+    "winston": "^3.3.3"
+  }
+}
