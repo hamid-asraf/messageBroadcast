@@ -5,7 +5,7 @@ const helmet = require('helmet');
 const config = require('config');
 const { logger } = require('./helper/logger');
 const publicAPI      = require("./public/index.js");
-const port = process.env.PORT || 3000 ;
+const port = process.env.PORT || 5000 ;
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
